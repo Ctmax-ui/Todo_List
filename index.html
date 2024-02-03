@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body oncontextmenu="return false;">
+    <h1 class="text-center mt-5">Todos</h1>
+    <div class="mt-3 main-container">
+        <form action="" class="mx-auto input-group input-box" id="form">
+            <input type="text" id="input" placeholder="Enter Your Todo">
+            <button class="btn "><i class="fa-solid fa-add"></i></button>
+        </form>
+        <ul id="todos" class="mx-auto lists-box p-0" onmousedown='return false;' onselectstart='return false;'>
+            <!-- <li class=""><span>Have</span></li> -->
+        </ul>
+        <p>left click to complete the task</p>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
